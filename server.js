@@ -9,8 +9,8 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 // Connect to Mongoose
-mongoose.connect('mongodb://localhost/mongob');
-var db = mongoose.connection;
+// mongoose.connect('mongodb://localhost/mongob');
+// var db = mongoose.connection;
 
 app.get('/', function(req, res) {
     res.send('Hello world');
